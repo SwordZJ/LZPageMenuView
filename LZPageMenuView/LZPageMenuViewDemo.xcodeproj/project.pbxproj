@@ -14,8 +14,8 @@
 		4BA107DA1D227BBF00B663C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA107D91D227BBF00B663C1 /* Assets.xcassets */; };
 		4BA107DD1D227BBF00B663C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA107DB1D227BBF00B663C1 /* LaunchScreen.storyboard */; };
 		4BA107E61D227C3B00B663C1 /* LZPageMenuDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA107E51D227C3B00B663C1 /* LZPageMenuDemoViewController.m */; };
-		4BA1080D1D2281EC00B663C1 /* LZPageMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1080A1D2281EC00B663C1 /* LZPageMenuView.m */; };
-		4BA1080E1D2281EC00B663C1 /* NSObject+LZSwipeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1080C1D2281EC00B663C1 /* NSObject+LZSwipeCategory.m */; };
+		4BA108291D2283D700B663C1 /* LZPageMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA108261D2283D700B663C1 /* LZPageMenuView.m */; };
+		4BA1082A1D2283D700B663C1 /* NSObject+LZSwipeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA108281D2283D700B663C1 /* NSObject+LZSwipeCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +31,10 @@
 		4BA107DE1D227BBF00B663C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BA107E41D227C3B00B663C1 /* LZPageMenuDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPageMenuDemoViewController.h; sourceTree = "<group>"; };
 		4BA107E51D227C3B00B663C1 /* LZPageMenuDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPageMenuDemoViewController.m; sourceTree = "<group>"; };
-		4BA108091D2281EC00B663C1 /* LZPageMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPageMenuView.h; sourceTree = "<group>"; };
-		4BA1080A1D2281EC00B663C1 /* LZPageMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPageMenuView.m; sourceTree = "<group>"; };
-		4BA1080B1D2281EC00B663C1 /* NSObject+LZSwipeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZSwipeCategory.h"; sourceTree = "<group>"; };
-		4BA1080C1D2281EC00B663C1 /* NSObject+LZSwipeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZSwipeCategory.m"; sourceTree = "<group>"; };
+		4BA108251D2283D700B663C1 /* LZPageMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPageMenuView.h; sourceTree = "<group>"; };
+		4BA108261D2283D700B663C1 /* LZPageMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPageMenuView.m; sourceTree = "<group>"; };
+		4BA108271D2283D700B663C1 /* NSObject+LZSwipeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZSwipeCategory.h"; sourceTree = "<group>"; };
+		4BA108281D2283D700B663C1 /* NSObject+LZSwipeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZSwipeCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		4BA107CC1D227BBF00B663C1 /* LZPageMenuViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4BA108081D2281EC00B663C1 /* LZPageMenuView */,
+				4BA108241D2283D700B663C1 /* LZPageMenuView */,
 				4BA107E41D227C3B00B663C1 /* LZPageMenuDemoViewController.h */,
 				4BA107E51D227C3B00B663C1 /* LZPageMenuDemoViewController.m */,
 				4BA107D01D227BBF00B663C1 /* AppDelegate.h */,
@@ -91,16 +91,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4BA108081D2281EC00B663C1 /* LZPageMenuView */ = {
+		4BA108241D2283D700B663C1 /* LZPageMenuView */ = {
 			isa = PBXGroup;
 			children = (
-				4BA108091D2281EC00B663C1 /* LZPageMenuView.h */,
-				4BA1080A1D2281EC00B663C1 /* LZPageMenuView.m */,
-				4BA1080B1D2281EC00B663C1 /* NSObject+LZSwipeCategory.h */,
-				4BA1080C1D2281EC00B663C1 /* NSObject+LZSwipeCategory.m */,
+				4BA108251D2283D700B663C1 /* LZPageMenuView.h */,
+				4BA108261D2283D700B663C1 /* LZPageMenuView.m */,
+				4BA108271D2283D700B663C1 /* NSObject+LZSwipeCategory.h */,
+				4BA108281D2283D700B663C1 /* NSObject+LZSwipeCategory.m */,
 			);
 			path = LZPageMenuView;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -174,8 +174,8 @@
 			files = (
 				4BA107D51D227BBF00B663C1 /* ViewController.m in Sources */,
 				4BA107E61D227C3B00B663C1 /* LZPageMenuDemoViewController.m in Sources */,
-				4BA1080E1D2281EC00B663C1 /* NSObject+LZSwipeCategory.m in Sources */,
-				4BA1080D1D2281EC00B663C1 /* LZPageMenuView.m in Sources */,
+				4BA1082A1D2283D700B663C1 /* NSObject+LZSwipeCategory.m in Sources */,
+				4BA108291D2283D700B663C1 /* LZPageMenuView.m in Sources */,
 				4BA107D21D227BBF00B663C1 /* AppDelegate.m in Sources */,
 				4BA107CF1D227BBF00B663C1 /* main.m in Sources */,
 			);
